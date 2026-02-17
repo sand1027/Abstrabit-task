@@ -203,9 +203,9 @@ npm run dev
 
 | # | Requirement | Test Steps | Expected Result | Status |
 |---|-------------|------------|-----------------|--------|
-| 1 | User can sign up and log in using Google (no email/password) | Visit the app → Click "Sign in with Google" → Approve on Google | User is redirected back to the app and sees their bookmark dashboard. No email/password fields exist on the login page. | ✅ Pass |
-| 2 | A logged-in user can add a bookmark (URL + title) | Log in → Enter a title and URL in the form → Click "Add Bookmark" | Bookmark appears in the list immediately. Form clears after submission. | ✅ Pass |
-| 3 | Bookmarks are private to each user | Log in as User A and add bookmarks. Open incognito, log in as User B | User B sees an empty list. User A's bookmarks are not visible to User B. | ✅ Pass |
-| 4 | Bookmark list updates in real-time without page refresh | Log in → Open two tabs → Add a bookmark in Tab 1 | Bookmark appears in Tab 2 automatically without refreshing the page | ✅ Pass |
-| 5 | User can delete their own bookmarks | Log in → Click "Delete" on an existing bookmark | Bookmark is removed from the list immediately | ✅ Pass |
-| 6 | App must be deployed on Vercel with a working live URL | Visit [abstrabit-task-seven.vercel.app](https://abstrabit-task-seven.vercel.app) | App loads, login works, full add/delete/realtime flow works on the live URL | ✅ Pass |
+| 1 | User can sign up and log in using Google (no email/password) | Visit the app → Click "Sign in with Google" → Approve on Google | User is redirected back to the app and sees their bookmark dashboard. No email/password fields exist on the login page. | Pass |
+| 2 | A logged-in user can add a bookmark (URL + title) | Log in → Enter a title and URL in the form → Click "Add Bookmark" | Bookmark appears in the list immediately. Form clears after submission. | Pass |
+| 3 | Bookmarks are private to each user | Log in as User A and add bookmarks. Open incognito, log in as User B | User B sees an empty list. User A's bookmarks are not visible to User B. | Pass |
+| 4 | Bookmark list updates in real-time without page refresh | Log in → Open two tabs → Add a bookmark in Tab 1 | Bookmark appears in Tab 2 automatically without refreshing the page | Pass |
+| 5 | User can delete their own bookmarks | Log in → Click "Delete" on an existing bookmark | Bookmark is removed from the list immediately |  Pass |
+| 6 | App must be deployed on Vercel with a working live URL | Visit [abstrabit-task-seven.vercel.app](https://abstrabit-task-seven.vercel.app) | App loads, login works, full add/delete/realtime flow works on the live URL | Pass |
